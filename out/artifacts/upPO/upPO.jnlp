@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="upPO.jnlp">
+  <information>
+    <title>upPO</title>
+    <vendor>Unknown</vendor>
+    <description>upPO</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="jfoenix.jar" size="2468450" download="eager" />
+    <jar href="upPO.jar" size="5812" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="sourse.Main"  name="upPO" />
+  <update check="background"/>
+</jnlp>
